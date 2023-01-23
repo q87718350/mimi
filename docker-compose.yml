@@ -1,0 +1,9 @@
+version:  '3'
+services:
+  datascience-notebook:
+      image:    jupyter/datascience-notebook:1aac87eb7fa5
+      volumes:
+        - ${LOCAL_WORKING_DIR}:/home
+      ports:
+        - ${PORT}:8888
+      container_name:   jupyter_notebook

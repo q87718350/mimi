@@ -16,6 +16,7 @@ import sklearn.ensemble
 from PIL import Image
 
 home_dir = os.path.expanduser('~')
+home_dir=os.path.join(home_dir,"Desktop","research_project","mimi")
 mimi_dir = os.path.join(home_dir, 'mimi')
 data_dir = os.path.join(mimi_dir, 'data')
 dvae_dir = os.path.join(home_dir, 'disentangling-vae')

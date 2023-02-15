@@ -2,6 +2,7 @@
 
 from __future__ import division
 
+import time
 from queue import Queue
 import pickle
 import uuid
@@ -147,6 +148,7 @@ class TFModel(object):
 
         if ftol is not None and utils.converged(val_losses, ftol):
           break
+
 
     if verbose:
       print('-----\n')

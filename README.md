@@ -35,3 +35,9 @@ Explore the latent space of a generative model of MNIST images using hand gestur
 2.  Set `dvae_dir` in `mimi/utils.py`
 3.  Download the [MNIST](https://github.com/lucastheis/deepbelief/blob/master/data/mnist.npz) dataset to `mimi/data/mnist/mnist.npz`
 3.  Run `notebooks/mnist.ipynb`
+
+## Submodule use for Learning-Hand-Interface
+
+Learning hand interface support the more detail use of hand user modle.
+To updating signiture you have to ```git pull```
+To downloading latest update from the project you have to ```git submodule update --init --recursive```
